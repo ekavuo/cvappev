@@ -1,9 +1,42 @@
+<!--Ekaterina Vuono 1700020 -->
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
+  <ion-buttons slot="start">
+  <ion-menu-button></ion-menu-button>
+  </ion-buttons>
+  <ion-title>Contact</ion-title>
   </ion-toolbar>
-</ion-header>
+ </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+    <ion-card class="welcome-card">
+        <ion-card-header>
+          <ion-card-subtitle>Contact information</ion-card-subtitle>
+          <ion-card-title>Ekaterina Vuono</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+            <p>Vanha maantie 9<br/>
+                Ekaterina.Vuono@laurea.student.fi<br/>
+                GitHub | Portfolio
+                </p>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-fab vertical="center" horizontal="center" slot="fixed">
+            <ion-fab-button>
+              <ion-icon name="share"></ion-icon>
+            </ion-fab-button>
+            <ion-fab-list side="top">
+              <ion-fab-button href="https://github.com/ekavuo"><ion-icon name="logo-github"></ion-icon></ion-fab-button>
+            </ion-fab-list>
+            <ion-fab-list side="start">
+              <ion-fab-button href="https://instagram.com/sallyselton"><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+            </ion-fab-list>
+            <ion-fab-list side="end">
+              <ion-fab-button href="https://ekavuono.tumblr.com/"><ion-icon name="images"></ion-icon></ion-fab-button>
+            </ion-fab-list>
+          </ion-fab>
+
+
+</ion-content>
